@@ -2,7 +2,7 @@
 
 
   <div id="about" ref="about" class="text-center pt-1">
-    <h1 class="heading display-1 mt-5" style="color:black">About Me</h1>
+    <h1 class="heading display-3 mt-5" style="color:black">About Me</h1>
     <div class="info">
       <img src="pic1.jpg" class="image-fluid imgs" />
       <div class="intro ">
@@ -58,7 +58,7 @@ export default {
   padding: 5%;
   width: 70%;
   text-align: left;
-  font-size: x-large;
+  font-size: large;
 }
 
 @media (max-width: 1300px) {

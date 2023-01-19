@@ -40,13 +40,6 @@
       background: #372725;
     }
 
-    img {
-      object-fit: scale-down;
-    }
-
-    .dark {
-      background-color: black;
-    }
   </style>
 </head>
 
@@ -72,16 +65,9 @@
 
 
 
+// functional javascript and jQuery
 
     $(document).ready(function () {
-      var cards = document.querySelectorAll('.card');
-
-      [...cards].forEach((card) => {
-        card.addEventListener('click', function () {
-          card.classList.toggle('is-flipped');
-        });
-      });
-
       $('#topbtn').hide();
       $('.thanks').hide();
       $('.error1').hide();
@@ -104,16 +90,16 @@
         window.scrollTo(0, 0);
       }).hide();
 
-
+      // errors close button click
       $('.close-1').click(function (e) {
-        console.log("clicked")
+        // console.log("clicked")
         $('.error1').removeClass('animate__fadeInUpBig');
-        $('.error1').addClass('animate__fadeOutUpBig');
+        $('.error1').addClass('animate__fadeOutLeftBig');
         $('.error1').fadeOut(1000);
       })
       $('.close-2').click(function (e) {
-        $('.error2').removeClass('animate__fadeInLeftBig');
-        $('.error2').addClass('animate__fadeOutLeftBig');
+        $('.error2').removeClass('animate__fadeInDownBig');
+        $('.error2').addClass('animate__fadeOutUpBig');
         $('.error2').fadeOut(1000);
       })
       $('.close-3').click(function (e) {
@@ -123,14 +109,15 @@
       })
 
 
-      // email to backend
+      // on click of contact form button
       $('#msg-btn').click(function () {
-        $('.error1').removeClass('animate__fadeOutUpBig');
-        $('.error2').removeClass('animate__fadeOutLeftBig');
+        $('.error1').removeClass('animate__fadeOutLeftBig');
+        $('.error2').removeClass('animate__fadeOutUpBig');
         $('.error3').removeClass('animate__fadeOutLeftBig');
         $('.error1').hide();
         $('.error2').hide();
         $('.error3').hide();
+
         let name = $('.input-name2').val();
         let message = $('.comments').val();
         if (!message && !name) {
@@ -138,7 +125,7 @@
           $('.error1').show();
         }
         else if (!name) {
-          $('.error2').addClass('animate__fadeInLeftBig');
+          $('.error2').addClass('animate__fadeInDownBig');
           $('.error2').show();
         }
         else if (!message) {

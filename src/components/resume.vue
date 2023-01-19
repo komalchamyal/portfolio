@@ -1,7 +1,7 @@
 <template>
 
   <div id="resume" class="text-center pt-3 pb-5 mb-3">
-    <h1 class="heading display-1">My Skills</h1>
+    <h1 class="heading display-3">My Skills</h1>
 
 
     <div class="warpper">
@@ -30,7 +30,7 @@
               <p class="skill-label">C++</p>
               <div class="skillbar " style="width: 85%; background-color: 	#f5c10e;"></div>
             </div>
-            <div  id="resume-link" class="container">
+            <div id="resume-link" class="container">
               <p class="skill-label">SQL</p>
               <div class="skillbar " style="width: 92%; background-color: indianred;"></div>
             </div>
@@ -83,7 +83,7 @@
               <div class="skillbar" style="width: 95%; background-color: 	darkblue;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Data Visualisation: Matplotlib, Seaborn</p>
+              <p class="skill-label">Matplotlib, Seaborn</p>
               <div class="skillbar " style="width: 90%; background-color: #55c10e;"></div>
             </div>
             <div class="container">
@@ -103,10 +103,11 @@
       </div>
     </div>
 
-    <div  class="text-center">
+    <div class="text-center">
       <!-- <object data="cv.pdf" class="image-fluid" width="700" height="400"></object> -->
-      <a href="cv.pdf" class="viewcv" data-bs-toggle="tooltip" data-bs-placement="top" title="View Resume" target="_blank">
-        <h2 class="fs-2 subheading ">Resume</h2>
+      <a href="cv.pdf" class="viewcv" data-bs-toggle="tooltip" data-bs-placement="top" title="View Resume"
+        target="_blank">
+        <h2 class="fs-3 subheading ">Resume</h2>
       </a>
       <a href="cv.pdf" download="KomalChamyalCV">
         <button class="btn btn mx-4 btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -128,12 +129,13 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-.viewcv .subheading{
+
+.viewcv .subheading {
   width: 8ch;
   transform: translateY(5px);
 }
 
-#resume{
+#resume {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -142,7 +144,7 @@ export default {
 .warpper {
   font-family: 'Poppins', sans-serif;
   display: flex;
-  margin: 4ch;
+  margin: 0ch 2ch;
   flex-direction: column;
   align-items: center;
 }
@@ -159,21 +161,22 @@ export default {
   transition: all 0.1s ease-in-out;
 }
 
-.tab:hover {
+.tab:hover , .tab:checked{
   background: #ffffff;
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(0, 0, 0);
   transform: translateY(-5px);
-
 }
+
 
 .panels {
   background: transparent;
   min-height: 100px;
   width: 100%;
-  max-width: 700px;
+  max-width: 450px;
   overflow: hidden;
-  padding-bottom: 3.5ch;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .panel {
@@ -216,12 +219,12 @@ export default {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
   flex-wrap: wrap;
 }
 
 .skill-label {
-  font-size: larger;
+  font-size: medium;
   font-weight: 500;
   margin: 0;
   margin-top: 2ch;
@@ -233,7 +236,7 @@ export default {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 95%;
     flex-wrap: wrap;
   }
 
@@ -249,10 +252,19 @@ export default {
     border-radius: 3px 3px 0px 0px;
     width: 70%;
   }
-.skill-label {
-  font-size: medium;}
+
+
+  .tab:hover {
+    transform: translateX(15px);
+  }
+
+  .skill-label {
+    font-size: small;
+  }
 
 }
+
+
 
 .container {
   width: 100%;

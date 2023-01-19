@@ -1,6 +1,6 @@
 <template>
   <div id="projects" class="text-center mt-3 pt-3">
-    <h1 class="heading display-1">Projects</h1>
+    <h1 class="heading display-3">Projects</h1>
 
     <div class='projects-container'>
       <div class='project-box'>
@@ -16,7 +16,7 @@
           <p>SELF QUANTIFIED</p>
           <p>Make custom trackers and add logs to them. The application displays the trackers with graphical trendlines.
           </p>
-          <div><a href="https://github.com/komalchamyal/SelfQuantified" target="_blank" class="project-icons bi bi-code-slash"></a> <a
+          <div class=""><a href="https://github.com/komalchamyal/SelfQuantified" target="_blank" class="project-icons bi bi-code-slash"></a> <a
               href="https://self-quantified-application.komalchamyal.repl.co/" target="_blank"
               class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
@@ -34,7 +34,7 @@
           <p>DATA ANALYSIS</p>
           <p>Performed Data Cleaning, EDA and Visualisation of a car sale dataset of Russia</p>
 
-          <div><a target="_blank" href="https://github.com/komalchamyal/DAV-Project" class="project-icons bi bi-code-slash"></a> <a
+          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/DAV-Project" class="project-icons bi bi-code-slash"></a> <a
             target="_blank" href="https://github.com/komalchamyal/DAV-Project/blob/main/DAV%20project%20CAR%20sales.ipynb"
               class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
@@ -78,13 +78,13 @@ export default {
 
 <style>
 .project-icons {
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
   color: white;
   background-color: transparent;
   outline: none;
   border: none;
-  margin: 2px;
+  margin: 5px;
   visibility: hidden;
   /* transition: 100ms ease-in-out; */
   /* box-shadow: 0px 0px 12px white ; */
@@ -110,9 +110,9 @@ export default {
 }
 
 .project-box {
-  flex-basis: 375px;
-  height: 375px;
-  margin: 10px 5px;
+  flex-basis: 325px;
+  height: 325px;
+  margin: 30px 15px;
   border-radius: 5px 5px 0px 0px;
   box-shadow: 3px 2px 17px 0px rgba(50, 50, 50, 0.9);
   background-color: #000000;
@@ -122,8 +122,8 @@ export default {
 }
 
 .skill-container {
-  width: 375px;
-  height: 215px;
+  width: 325px;
+  height: 150px;
   padding: 10px;
   position: absolute;
   z-index: 10;
@@ -174,7 +174,7 @@ export default {
 
 .project-box img {
   width: 100%;
-  height: 275px;
+  height: 250px;
   background-color: #EEEFF7;
   object-fit: cover;
   margin: 0px;
@@ -184,11 +184,11 @@ export default {
 
 .project-card-footer {
   font-family: 'Roboto Mono Thin', monospace;
-  font-size: 15px;
+  /* font-size: 15px; */
   letter-spacing: 2px;
   width: 100%;
   height: 180px;
-  transform: translateY(-10px);
+  /* transform: translateY(-5px); */
   padding: 0 2px;
 
   background-color: #000000;
@@ -202,7 +202,7 @@ export default {
   align-self: center;
   margin-bottom: 0;
   padding-bottom: 0;
-  font-size: large;
+  font-size: small;
 }
 
 .project-card-footer p:nth-child(2) {
@@ -221,15 +221,20 @@ export default {
 
 .project-box:hover .project-card-footer p {
   padding-top: 10px;
+  /* font-size: x-small; */
 }
 
-.project-box:hover .project-card-footer p:nth-child(2),
+.project-box:hover .project-card-footer p:nth-child(2){
+  visibility: visible;
+  /* font-size: small; */
+}
 .project-box:hover .project-icons {
   visibility: visible;
+  /* font-size: medium; */
 }
 
 .project-box:hover .project-card-footer {
-  transform: translateY(-65px);
+  transform: translateY(-90px);
   cursor: default;
 }
 
@@ -251,18 +256,19 @@ export default {
 
 @media (max-width:500px) {
   .project-box {
-    flex-basis: 80vw;
+    flex-basis: 75vw;
     margin: 10% 0;
   }
 
   .skill-container {
-    width: 80vw;
-    height: 180px;
-    padding: 10px;
+    width: 75vw;
+    height: 150px;
+    /* padding: 10px; */
   }
 
   .skill {
     font-size: 14px;
+    margin: 0px;
   }
 
   .project-card-footer {
@@ -280,11 +286,13 @@ cursor: default;
 } */
 
   .project-card-footer p:nth-child(2) {
-    font-size: 11px;
+    /* font-size: 11px; */
   }
 }
 
-@media (max-width:360px) {
+
+
+/* @media (max-width:360px) {
 
   .skill-container {
     width: 80vw;
@@ -294,7 +302,7 @@ cursor: default;
 
   .project-box {
     flex-basis: 100%;
-    /* width: 100vw; */
+    width: 100vw;
     margin: 10% 0;
   }
 
@@ -303,7 +311,7 @@ cursor: default;
     letter-spacing: 1px;
     width: 100%;
     height: 27vh;
-    /* transform: translateY(-10vh); */
+    transform: translateY(-10vh);
   }
 
 
@@ -315,5 +323,5 @@ cursor: default;
   .project-card-footer p:nth-child(2) {
     font-size: 11px;
   }
-}
+} */
 </style>

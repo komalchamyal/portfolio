@@ -1,8 +1,8 @@
 <template>
 
 
-  <div id="contact" class="text-center mt-3 pt-3">
-    <h1 class="heading display-1">Get In Touch</h1>
+  <div id="contact" class="text-center">
+    <h1 class="heading display-3 pt-5">Get In Touch</h1>
     <br>
     <!--       
       <h2 class="display-5 subheading mt-3 mb-2">For work/enquiry</h2>
@@ -18,9 +18,9 @@
       </div>
 
       <br> -->
-    <h2 class="display-6 subheading mt-4">Leave me a Message!</h2>
+    <h2 class="fs-2 subheading">Leave me a Message!</h2>
     <div class="text-center">
-      <p class="fs-4 lead">(Could be anything from `Hii Komal` to `I would like to work with you`)</p>
+      <p class="fs-6 lead px-5 mb-5">(Could be anything from `Hii Komal` to `I would like to work with you`)</p>
     </div>
     <div class="errors text-center space">
       <p class="error1 animate__animated">
@@ -36,24 +36,24 @@
       </p>
     </div>
     <div id="contact-form">
-      <input type="text" name="name" class="input-name2 mx-3" placeholder="Your Name" data-bs-toggle="tooltip"
+      <input type="text" autocomplete="off" name="name" class="input-name2 mx-3" placeholder="Your Name" data-bs-toggle="tooltip"
          title="Your name" required />
               <button id="msg-btn" type="submit" class="button-msg mx-3"> 
           <i id="change-icon" class="bi bi-send-fill"></i>
       </button>
-      <textarea name="message" required data-bs-toggle="tooltip" data-bs-placement="bottom" title="Any comments"
+      <textarea name="message" autocomplete="off" required data-bs-toggle="tooltip" data-bs-placement="bottom" title="Any comments"
         class="comments form-control mt-3" :value=msg placeholder="Type Something Here"></textarea>
        
 
       </div>
 
     <div class="text-center mt-4">
-      <h4 id="#" class="thanks display-6 animate__animated animate__backInLeft"> Thank You!</h4>
+      <div id="#" class="thanks fs-1 animate__animated animate__backInLeft"  style="font-family: 'Montserrat', sans-serif; font-weight: 100;"> Thank You!</div>
     </div>
     <div class="text-center">
-      <h2 class="fs-2 subheading mt-4">For Work/Enquiry</h2><br>
+      <h2 class="fs-4 subheading mt-4">For Work/Enquiry</h2><br>
       <div class="text-center" style=" font-family: 'Poppins', sans-serif;">
-        <p class="mb-5 pb-4 fs-6">Email: komalchamyal22@gmail.com <br> or <br>
+        <p class="mb-4 pb-3" style="font-size: small;">Email: komalchamyal22@gmail.com <br> or <br>
           <a href="mailto:komalchamyal22@gmail.com" class="danx"> Mail Me</a>
         </p>
       </div>
@@ -142,7 +142,7 @@ export default {
   font-size: 100%;
   font-weight: 600;
   line-height: normal;
-  min-height: 6ch;
+  min-height: 40px;
   outline: none;
   padding: 0;
   text-align: center;
@@ -152,7 +152,7 @@ export default {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 10%;
-  max-width: 100px;
+  min-width: 50px;
   will-change: transform;
 }
 
@@ -183,11 +183,12 @@ export default {
 
 .errors {
   align-self: center;
+  margin: 0 5%;
   font-family: 'Poppins', sans-serif;
 }
 
 .space {
-  height: 4ch;
+  height: 2ch;
   margin-bottom: 1.5ch;
 }
 
@@ -219,12 +220,12 @@ svg {
 
 .input-name2 {
   width: 25%;
-  height: 5.5vh;
+  height: 40px;
   position: relative;
   padding-left: 2ch;
   border-radius: 5px;
-  max-width: 400px;
-  font-size: larger;
+  max-width: 250px;
+  /* font-size: medium; */
   outline: none;
   border: none;
   box-shadow: rgb(80, 68, 68) 4px 4px 4px;
@@ -235,16 +236,17 @@ svg {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  max-width: 800px;
+  max-width: 500px;
   padding: 1ch;
   height: 15vh;
-  font-size: large;
+  /* font-size: large; */
   outline: none;
-  outline-offset: 0;
-  font-weight: light;
+  /* border: none; */
+  /* outline-offset: 0; */
+  /* font-weight: light; */
   resize: none;
   box-shadow: black 10px 8px 1px;
-  ;
+
 }
 
 @media only screen and (max-width: 1100px) {
@@ -260,15 +262,20 @@ svg {
     padding-right: 0;
   } */
 
+  .errors{
+    margin-bottom: 40px;
+    /* font-size: small; */
+  }
+
   .input-name2 {
-    width: 30%;
+    width: 40%;
   }
 
   .comments {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    max-width: 600px;
+    max-width: 500px;
   }
 }
 
@@ -285,24 +292,24 @@ svg {
   } */
 
   .input-name2 {
-    height: 6vh;
+    /* height: 5vh; */
     width: 50%;
     font-size: medium;
   }
 
   .comments {
-    height: 20vh;
+    height: 17vh;
     width: 80%;
     font-size: medium;
   }
 
-  .button-msg {
+  /* .button-msg {
     margin-top: 1ch;
     font-size: 100%;
     font-weight: 600;
-    min-height: 5ch;
+    min-height: 35px;
     width: 15%;
-  }
+  } */
 
 }
 </style>
