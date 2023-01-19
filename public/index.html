@@ -19,9 +19,7 @@
   <style>
     html {
       scroll-behavior: smooth;
-
     }
-
     body {
       -ms-overflow-style: none;
       /* for Internet Explorer, Edge */
@@ -168,6 +166,8 @@
               // alert("SUCCESS!", data);
               $('#change-icon').removeClass("lds-hourglass", 100);
               $('#change-icon').addClass("bi bi-check-lg", 100);
+              $('.input-name2').val("");
+              $('.comments').val("");
 
               $('.thanks').show(300);
             },
