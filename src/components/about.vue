@@ -57,6 +57,7 @@ export default {
   font-family: 'Poppins', sans-serif;
   padding: 5%;
   width: 70%;
+  /* max-height: 100px; */
   text-align: left;
   font-size: large;
 }
@@ -87,17 +88,6 @@ export default {
   }
 }
 
-@media (max-width: 1200px){
-  
-.imgs {
-  border-radius: 25px;
-  max-height: 200px;
-  max-width: 200px;
-  transform: scale(0.95);
-  margin: 2ch;
-  box-shadow: rgb(160, 142, 142) 1rem 1rem 1rem;
-}
-}
 .collage {
   display: flex;
   flex-direction: column;
@@ -109,6 +99,7 @@ export default {
   max-width: 40vw;
   transform: scale(0.95);
   margin: 2ch;
+  z-index: 100;
   box-shadow: rgb(160, 142, 142) 1rem 1rem 1rem;
 }
 

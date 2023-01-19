@@ -114,13 +114,13 @@ export default {
 /* buttons */
 
 .buttons {
-  animation-delay: 3.3s;
+  /* animation-delay: 3.3s; */
   margin-bottom: 20vh;
   display: flex;
   flex-wrap: wrap;
   width: 85%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .button-28 {
@@ -137,9 +137,10 @@ export default {
   font-size: 100%;
   font-weight: 600;
   line-height: normal;
-  min-height: 6vh;
-  min-width: 0;
+  min-height: 40px;
+  min-width: 100px;
   outline: none;
+  margin: 5px 5px;
   text-align: center;
   text-decoration: none;
   transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
@@ -162,16 +163,22 @@ export default {
   transform: translateY(0);
 }
 
-@media only screen and (max-width: 786px) {
+
+@media only screen and (max-width: 768px) {
+  .button-28 {
+    width: 40%;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 500px) {
 
   /* For mobile phones: */
 .buttons {
-  animation-delay: 3.3s;
   margin-bottom: 25vh;
 }
   .button-28 {
-    width: 100%;
-    font-size: small;
+    width: 70%;
   }
 
   .typing-text {
