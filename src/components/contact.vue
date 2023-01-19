@@ -1,0 +1,308 @@
+<template>
+
+
+  <div id="contact" class="text-center mt-3 pt-3">
+    <h1 class="heading display-1">Get In Touch</h1>
+    <br>
+    <!--       
+      <h2 class="display-5 subheading mt-3 mb-2">For work/enquiry</h2>
+      <div class='form mt-3' style="width: 100%;">
+      <label class="fw-light col-2">Name</label>
+      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
+      <label class="fw-light col-2">Email</label>
+      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
+      <label class="fw-light col-2">Phone</label>
+      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
+      <label class="fw-light col-2 ">Subject</label>
+      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
+      </div>
+
+      <br> -->
+    <h2 class="display-6 subheading mt-4">Leave me a Message!</h2>
+    <div class="text-center">
+      <p class="fs-4 lead">(Could be anything from `Hii Komal` to `I would like to work with you`)</p>
+    </div>
+    <div class="errors text-center space">
+      <p class="error1 animate__animated">
+        I actually get these messages you know
+        <button type="button" class="close-1" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+      </p>
+      <p class="error2 animate__animated">
+        Would Love to know your name! (Even if it's a fake one)
+        <button type="button" class="close-2" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+      </p>
+      <p class="error3 animate__animated">No content. Can't let you spam no no
+        <button type="button" class="close-3" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+      </p>
+    </div>
+    <div id="contact-form">
+      <input type="text" name="name" class="input-name2 mx-3" placeholder="Your Name" data-bs-toggle="tooltip"
+         title="I would like to know you!" required />
+              <button id="msg-btn" type="submit" class="button-msg mx-3"> 
+          <i id="change-icon" class="bi bi-send-fill"></i>
+      </button>
+      <textarea name="message" required data-bs-toggle="tooltip" data-bs-placement="bottom" title="Any comments"
+        class="comments form-control mt-3" :value=msg placeholder="Type Something Here"></textarea>
+       
+
+      </div>
+
+    <div class="text-center mt-4">
+      <h4 id="#" class="thanks display-6 animate__animated animate__backInLeft"> Thank You!</h4>
+    </div>
+    <div class="text-center">
+      <h2 class="fs-2 subheading mt-4">For Work/Enquiry</h2><br>
+      <div class="text-center" style=" font-family: 'Poppins', sans-serif;">
+        <p class="mb-5 pb-4 fs-6">Email: komalchamyal22@gmail.com <br> or <br>
+          <a href="mailto:komalchamyal22@gmail.com" class="danx"> Mail Me</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</template>
+
+<script>
+export default {
+  name: 'contact-section',
+  props: {
+    msg: String,
+    name: String
+  }
+
+}
+
+</script>
+
+<style>
+.bi-check-lg{
+  font-size: 3ch;
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+.bi-x{
+  font-size: 3ch;
+  margin: 0;
+  padding: 0;
+  color: rgb(150, 0, 0);
+}
+.lds-hourglass {
+  display: inline-block;
+  /* bottom: 25px; */
+  /* z-index: 1000; */
+  /* min-height: 4ch;
+  max-width: 80px; */
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  z-index: 1000;
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+  border: 12px solid rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0) transparent black transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.button-msg {
+  transform: translateY(5px);
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 100%;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 6ch;
+  outline: none;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 200ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  max-width: 100px;
+  will-change: transform;
+}
+
+.button-msg:not(.no-hover):hover {
+  color: #fff;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-msg:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.close-1,
+.close-2,
+.close-3 {
+  background-color: transparent;
+  border: none;
+}
+
+.close-1:hover,
+.close-2:hover,
+.close-3:hover {
+  color: rgb(66, 66, 66);
+}
+
+.errors {
+  align-self: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.space {
+  height: 4ch;
+  margin-bottom: 1.5ch;
+}
+
+.heading {
+  width: 12ch;
+  align-self: center;
+}
+
+.subheading {
+  width: 20ch;
+  align-self: center;
+}
+
+/* .input-name {
+  height: 5.5vh;
+  width: 40%;
+  font-size: medium;
+} */
+
+
+/* label {
+  font-size: larger;
+} */
+
+
+svg {
+  font-weight: lighter;
+}
+
+.input-name2 {
+  width: 25%;
+  height: 5.5vh;
+  position: relative;
+  padding-left: 2ch;
+  border-radius: 5px;
+  max-width: 400px;
+  font-size: larger;
+  outline: none;
+  border: none;
+  box-shadow: rgb(80, 68, 68) 4px 4px 4px;
+  justify-content: center;
+}
+
+.comments {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 800px;
+  padding: 1ch;
+  height: 15vh;
+  font-size: large;
+  outline: none;
+  outline-offset: 0;
+  font-weight: light;
+  resize: none;
+  box-shadow: black 10px 8px 1px;
+  ;
+}
+
+@media only screen and (max-width: 1100px) {
+  /* .input-name {
+    height: 5.5vh;
+    width: 30%;
+    margin-left: 0;
+    font-size: small;
+  } */
+
+  /* label {
+    margin-right: 0;
+    padding-right: 0;
+  } */
+
+  .input-name2 {
+    width: 30%;
+  }
+
+  .comments {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* .input-name {
+    height: 5.5vh;
+    width: 70%;
+    font-size: small;
+  } */
+
+  /* label {
+    margin-right: 50vw;
+    font-size: medium;
+  } */
+
+  .input-name2 {
+    height: 6vh;
+    width: 50%;
+    font-size: medium;
+  }
+
+  .comments {
+    height: 20vh;
+    width: 80%;
+    font-size: medium;
+  }
+
+  .button-msg {
+    margin-top: 1ch;
+    font-size: 100%;
+    font-weight: 600;
+    min-height: 5ch;
+    width: 15%;
+  }
+
+}
+</style>
