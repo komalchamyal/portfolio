@@ -9,7 +9,7 @@
     </div>
     <!-- Typing Intro -->
     <div class="typing-text fs-2 mx-3">
-      Hi! I am Komal Chamyal.
+      Hi, I am Komal Chamyal!
     </div>
     <!-- Links to sections -->
     <div class="buttons animate__animated animate__fadeInDown">
@@ -114,7 +114,7 @@ export default {
 /* buttons */
 
 .buttons {
-  /* animation-delay: 3.3s; */
+  animation-delay: 3.3s;
   margin-bottom: 20vh;
   display: flex;
   flex-wrap: wrap;
@@ -186,4 +186,23 @@ export default {
   }
 
 }
+
+
+/* @media (max-width: 354px){
+
+  .typing-text {
+    padding: 0 5ch;
+  width: 14ch;
+  animation: typing 2s steps(14), blink 0.3s step-end infinite alternate;
+  white-space: nowrap;
+  border-right: 2px solid;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 2px;
+  margin-top: 0.5ch;
+  //min-height: 2ch;
+  margin-bottom: 0.5ch;
+}
+
+} */
 </style>
