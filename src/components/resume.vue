@@ -12,7 +12,7 @@
       <div class="tabs">
         <label class="tab" id="one-tab" for="one">Programming</label>
         <label class="tab" id="two-tab" for="two"> Web Dev</label>
-        <label class="tab" id="three-tab" for="three"> More</label>
+        <label class="tab" id="three-tab" for="three"> Data</label>
 
       </div>
       <div class="panels">
@@ -42,6 +42,10 @@
               <p class="skill-label">Linux</p>
               <div class="skillbar" style="width: 89%; background-color: brown;"></div>
             </div>
+            <div class="container">
+              <p class="skill-label">Data Structures & Algorithms</p>
+              <div class="skillbar" style="width: 94%; background-color: orange;"></div>
+            </div>
 
           </div>
         </div>
@@ -50,19 +54,22 @@
           <div class="skills-box">
             <div class="container">
               <p class="skill-label">Vue.js</p>
-              <div class="skillbar" style="width: 92%; background-color: orangered;"></div>
+              <div class="skillbar" style="width: 94%; background-color: orangered;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Flask</p>
-              <div class="skillbar" style="width: 92%; background-color: palevioletred;"></div>
+              <p class="skill-label">Flask, Jinja2</p>
+              <div class="skillbar" style="width: 94%; background-color: palevioletred;"></div>
+            </div>            <div class="container">
+              <p class="skill-label">REST API</p>
+              <div class="skillbar" style="width: 95%; background-color: 	purple;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">HTML</p>
+              <p class="skill-label">SQL-Alchemy</p>
+              <div class="skillbar" style="width: 95%; background-color: 	darkblue;"></div>
+            </div>
+            <div class="container">
+              <p class="skill-label">HTML CSS</p>
               <div class="skillbar " style="width: 95%; background-color: olive;"></div>
-            </div>
-            <div class="container">
-              <p class="skill-label">CSS</p>
-              <div class="skillbar" style="width: 95%; background-color: 	#f5c00b;"></div>
             </div>
             <div class="container">
               <p class="skill-label">JavaScript</p>
@@ -73,30 +80,35 @@
               <div class="skillbar" style="width: 93%; background-color: purple;"></div>
             </div>
 
+
           </div>
         </div>
         <div class="panel" id="three-panel">
 
           <div class="skills-box">
             <div class="container">
-              <p class="skill-label">SQL-Alchemy</p>
-              <div class="skillbar" style="width: 95%; background-color: 	darkblue;"></div>
+              <p class="skill-label">ML/AI</p>
+              <div class="skillbar " style="width: 97%; background-color: Purple;"></div>
+            </div>            
+            <div class="container">
+              <p class="skill-label">Power BI</p>
+              <div class="skillbar " style="width: 91%; background-color: #55c10e;"></div>
+            </div>
+            <div class="container">
+              <p class="skill-label">Azure</p>
+              <div class="skillbar " style="width: 91%; background-color: pink;"></div>
+            </div>
+            <div class="container">
+              <p class="skill-label">Python</p>
+              <div class="skillbar " style="width: 97%; background-color: mediumslateblue;"></div>
             </div>
             <div class="container">
               <p class="skill-label">Matplotlib, Seaborn</p>
-              <div class="skillbar " style="width: 90%; background-color: #55c10e;"></div>
-            </div>
-            <div class="container">
-              <p class="skill-label">Data Structures & Algorithms</p>
-              <div class="skillbar" style="width: 94%; background-color: orange;"></div>
-            </div>
-            <div class="container">
-              <p class="skill-label">REST API</p>
-              <div class="skillbar" style="width: 95%; background-color: 	purple;"></div>
+              <div class="skillbar " style="width: 97%; background-color: rgb(232, 86, 86);"></div>
             </div>
             <div class="container">
               <p class="skill-label">Numpy, Pandas</p>
-              <div class="skillbar" style="width: 90%; background-color: #f5c10e;"></div>
+              <div class="skillbar" style="width: 97%; background-color: #f5c10e;"></div>
             </div>
           </div>
         </div>
@@ -139,6 +151,8 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  /* border: 3px solid black;
+  max-height: min-content; */
 }
 
 .warpper {
@@ -147,6 +161,7 @@ export default {
   margin: 0ch 2ch;
   flex-direction: column;
   align-items: center;
+  min-height: 450px;
 }
 
 .tab {

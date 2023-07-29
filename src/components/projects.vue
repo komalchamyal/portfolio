@@ -61,6 +61,27 @@
           </div>
         </div>
       </div>
+
+      <div class='project-box'>
+        <div class='skill-container'>
+          <div class='skill'>Sklearn</div>
+          <div class='skill'>ML Algos</div>
+          <div class='skill'>SHAP</div>
+          <div class='skill'>Python</div>
+          <!-- <div class='skill'>Pandas</div>
+          <div class='skill'>Seaborn</div> -->
+        </div>
+        <img src="ml.webp" />
+        <div class='project-card-footer'>
+          <p>Big Mart Prediction</p>
+          <p>Data Cleaning, EDA, Modelling, Hyperparameter Tuning, Prediction of sales</p>
+
+          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/bigmart-analysis" class="project-icons bi bi-code-slash"></a> <a
+            target="_blank" href="https://github.com/komalchamyal/bigmart-analysis/blob/main/Big%20Mart%20Pre-processing%20%2B%20Prediction.ipynb"
+              class="project-icons bi bi-box-arrow-up-right"></a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- <div class='projects-container'>
     </div> -->
@@ -239,7 +260,7 @@ export default {
 }
 
 .project-box:hover img {
-  filter: grayscale(70%);
+  filter: grayscale(90%);
   cursor: default;
 }
 
