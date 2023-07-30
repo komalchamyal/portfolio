@@ -2,26 +2,13 @@
   <div id="projects" class="text-center mt-3 pt-3">
     <h1 class="heading display-3">Projects</h1>
 
-    <div class='projects-container'>
-      <div class='project-box'>
-        <div class='skill-container'>
-          <div class='skill'>Python-Flask</div>
-          <div class='skill'>Sql-Alchemy</div>
-          <div class='skill'>Jinja2</div>
-          <div class='skill'>HTML CSS JS</div>
-          <div class='skill'>Bootstrap</div>
-        </div>
-        <img src="quantified.png" />
-        <div class='project-card-footer'>
-          <p>SELF QUANTIFIED</p>
-          <p>Make custom trackers and add logs to them. The application displays the trackers with graphical trendlines.
-          </p>
-          <div class=""><a href="https://github.com/komalchamyal/SelfQuantified" target="_blank" class="project-icons bi bi-code-slash"></a> <a
-              href="https://self-quantified-application.komalchamyal.repl.co/" target="_blank"
-              class="project-icons bi bi-box-arrow-up-right"></a>
-          </div>
-        </div>
+    <br><br>
+    
+    <div class="project-sub">
+        <h1 class="display-6">Data Science</h1>
       </div>
+    <div class='projects-container'>
+
       <div class='project-box'>
         <div class='skill-container'>
           <div class='skill'>Numpy</div>
@@ -37,27 +24,6 @@
           <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/DAV-Project" class="project-icons bi bi-code-slash"></a> <a
             target="_blank" href="https://github.com/komalchamyal/DAV-Project/blob/main/DAV%20project%20CAR%20sales.ipynb"
               class="project-icons bi bi-box-arrow-up-right"></a>
-          </div>
-        </div>
-      </div>
-
-      <div class='project-box'>
-        <div class='skill-container'>
-          <div class='skill'>Python-Flask</div>
-          <div class='skill'>Rest-API</div>
-          <div class='skill'>Sql-Alchemy</div>
-          <div class='skill'>HTML CSS JS</div>
-          <div class='skill'>Bootstrap</div>
-          <div class='skill'>Sqlite DB</div>
-        </div>
-        <img src="kanban.jpg" />
-        <div class='project-card-footer'>
-          <p>MY KANBAN</p>
-          <p>A personalised Kanban board to make boards or lists and add tasks into them. APIs provided with
-            documentation.</p>
-
-          <div><a target="_blank" href="https://github.com/komalchamyal/myKanban" class="project-icons bi bi-code-slash"></a> <a
-            target="_blank" href="https://MyKanban.komalchamyal.repl.co" class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
         </div>
       </div>
@@ -83,8 +49,52 @@
         </div>
       </div>
     </div>
-    <!-- <div class='projects-container'>
-    </div> -->
+    <div class="project-sub">
+      <h1 class="display-6">Web Development</h1>
+    </div>
+    <div class='projects-container'>
+      <div class='project-box'>
+        <div class='skill-container'>
+          <div class='skill'>Python-Flask</div>
+          <div class='skill'>Sql-Alchemy</div>
+          <div class='skill'>Jinja2</div>
+          <div class='skill'>HTML CSS JS</div>
+          <div class='skill'>Bootstrap</div>
+        </div>
+        <img src="quantified.png" />
+        <div class='project-card-footer'>
+          <p>SELF QUANTIFIED</p>
+          <p>Make custom trackers and add logs to them. The application displays the trackers with graphical trendlines.
+          </p>
+          <div class=""><a href="https://github.com/komalchamyal/SelfQuantified" target="_blank" class="project-icons bi bi-code-slash"></a> <a
+              href="https://self-quantified-application.komalchamyal.repl.co/" target="_blank"
+              class="project-icons bi bi-box-arrow-up-right"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class='project-box'>
+        <div class='skill-container'>
+          <div class='skill'>Python-Flask</div>
+          <div class='skill'>Rest-API</div>
+          <div class='skill'>Sql-Alchemy</div>
+          <div class='skill'>HTML CSS JS</div>
+          <div class='skill'>Bootstrap</div>
+          <div class='skill'>Sqlite DB</div>
+        </div>
+        <img src="kanban.jpg" />
+        <div class='project-card-footer'>
+          <p>MY KANBAN</p>
+          <p>A personalised Kanban board to make boards or lists and add tasks into them. APIs provided with
+            documentation.</p>
+
+          <div><a target="_blank" href="https://github.com/komalchamyal/myKanban" class="project-icons bi bi-code-slash"></a> <a
+            target="_blank" href="https://MyKanban.komalchamyal.repl.co" class="project-icons bi bi-box-arrow-up-right"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
   </div>
@@ -119,6 +129,8 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  max-width: 900px;
+  margin: auto;
 }
 
 .projects-container {
@@ -128,6 +140,11 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+.project-sub{
+
+  /* flex-basis: 325px; */
+  align-self: center;
 }
 
 .project-box {
