@@ -3,7 +3,7 @@
   <div id="resume" class="text-center pt-3 pb-5 mb-3">
     <h1 class="heading display-3">My Skills</h1>
 
-
+<br>
     <div class="warpper">
       <input class="radio" id="one" name="group" type="radio" checked>
       <input class="radio" id="two" name="group" type="radio">
@@ -113,8 +113,23 @@
           </div>
         </div>
       </div>
+      
     </div>
-
+<br>
+    <div>
+      <h2 class="fs-1 subheading ">Certifications</h2>
+     <br><br> <div class="warpper2">
+        <div class="certifications">
+          <ol role="list">
+          <li><a class="link" target="_blank" href="https://learn.microsoft.com/en-us/users/komalchamyal/credentials/4f1946f395a046b3">
+            Microsoft Power BI Data Analyst</a></li>
+          <li><a class="link" target="_blank" href="https://drive.google.com/file/d/1A842btwVFN8LrZ0nBRjwnRgSwslckiZv/view">
+            IITM Foundational Level</a> </li>
+        </ol>
+        </div>
+      </div>
+    </div>
+    <br>
     <div class="text-center">
       <!-- <object data="cv.pdf" class="image-fluid" width="700" height="400"></object> -->
       <a href="cv.pdf" class="viewcv" data-bs-toggle="tooltip" data-bs-placement="top" title="View Resume"
@@ -163,7 +178,69 @@ export default {
   align-items: center;
   min-height: 450px;
 }
+.warpper2 {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  margin: 0ch 2ch;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px;
+  text-align: left;
+}
+.certifications{
+  max-width: 600px;
+  font-size: large;
+}
 
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+li + li {
+	margin-top: 1rem;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	/* background: rgb(218, 233, 251); */
+	padding: 1.5rem;
+  outline: 1px solid black;
+	border-radius: 1rem;
+	width: calc(100% - 2rem);
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
+}
+
+li::before {
+	counter-increment: list-item;
+	content: counter(list-item);
+  opacity: 0.85;
+	font-size: 3rem;
+	font-weight: 700;
+	width: 1.5em;
+	height: 1.5em;
+	background: #000000;
+	flex: 0 0 auto;
+	border-radius: 50%;
+	color: rgb(255, 255, 255);
+	display: flex;
+  outline: 1px solid #000;
+	justify-content: center;
+	align-items: center;
+}
+
+li:nth-child(even) {
+	flex-direction: row-reverse;
+	/* background: rgb(249, 223, 246); */
+	margin-right: -2rem;
+	margin-left: 2rem;
+}
+.link{
+color: #3E2723;
+text-decoration: none;
+}
 .tab {
   cursor: pointer;
   padding: 1ch 1ch;
@@ -276,6 +353,9 @@ export default {
   .skill-label {
     font-size: small;
   }
+  .certifications{
+  font-size: medium;
+}
 
 }
 
