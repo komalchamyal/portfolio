@@ -3,10 +3,10 @@
     <h1 class="heading display-3">Projects</h1>
 
     <br><br>
-    
+
     <div class="project-sub">
-        <h1 class="display-6">Data Science</h1>
-      </div>
+      <h1 class="display-6">Data Science</h1>
+    </div>
     <div class='projects-container'>
 
       <div class='project-box'>
@@ -21,8 +21,9 @@
           <p>DATA ANALYSIS</p>
           <p>Performed Data Cleaning, EDA and Visualisation of a car sale dataset of Russia</p>
 
-          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/DAV-Project" class="project-icons bi bi-code-slash"></a> <a
-            target="_blank" href="https://github.com/komalchamyal/DAV-Project/blob/main/DAV%20project%20CAR%20sales.ipynb"
+          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/DAV-Project"
+              class="project-icons bi bi-code-slash"></a> <a target="_blank"
+              href="https://github.com/komalchamyal/DAV-Project/blob/main/DAV%20project%20CAR%20sales.ipynb"
               class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
         </div>
@@ -42,8 +43,9 @@
           <p>Big Mart Prediction</p>
           <p>Data Cleaning, EDA, Modelling, Hyperparameter Tuning, Prediction of sales</p>
 
-          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/bigmart-analysis" class="project-icons bi bi-code-slash"></a> <a
-            target="_blank" href="https://github.com/komalchamyal/bigmart-analysis/blob/main/Big%20Mart%20Pre-processing%20%2B%20Prediction.ipynb"
+          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/bigmart-analysis"
+              class="project-icons bi bi-code-slash"></a> <a target="_blank"
+              href="https://github.com/komalchamyal/bigmart-analysis/blob/main/Big%20Mart%20Pre-processing%20%2B%20Prediction.ipynb"
               class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
         </div>
@@ -66,7 +68,8 @@
           <p>SELF QUANTIFIED</p>
           <p>Make custom trackers and add logs to them. The application displays the trackers with graphical trendlines.
           </p>
-          <div class=""><a href="https://github.com/komalchamyal/SelfQuantified" target="_blank" class="project-icons bi bi-code-slash"></a> <a
+          <div class=""><a href="https://github.com/komalchamyal/SelfQuantified" target="_blank"
+              class="project-icons bi bi-code-slash"></a> <a
               href="https://self-quantified-application.komalchamyal.repl.co/" target="_blank"
               class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
@@ -88,26 +91,63 @@
           <p>A personalised Kanban board to make boards or lists and add tasks into them. APIs provided with
             documentation.</p>
 
-          <div><a target="_blank" href="https://github.com/komalchamyal/myKanban" class="project-icons bi bi-code-slash"></a> <a
-            target="_blank" href="https://MyKanban.komalchamyal.repl.co" class="project-icons bi bi-box-arrow-up-right"></a>
+          <div><a target="_blank" href="https://github.com/komalchamyal/myKanban"
+              class="project-icons bi bi-code-slash"></a> <a target="_blank" href="https://MyKanban.komalchamyal.repl.co"
+              class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
         </div>
       </div>
     </div>
+    <div class="project-sub">
+      <h1 class="display-6">Power BI</h1>
+    </div>
+    <div class="projects-container">
+      <div class="report-btn">
+        <button class="btn btn-dark mx-3" style="width: max-content;" v-if="isHidden1 && isHidden2"
+          v-on:click="isHidden1 = false; isHidden2 = true">View Netflix Report</button>   
+        <!-- <button class="btn btn-dark mx-3" style="width: max-content;" v-if="isHidden2&&isHidden1"
+          v-on:click="isHidden1 = true; isHidden2 = false">View SuperStore Report</button> -->
+          <button class="btn btn-dark mx-3" style="width: max-content;" v-else
+          v-on:click="isHidden1 = true; isHidden2 = true">Close</button>
+      </div>
+      <br><br><br>
+      <div class="report-space">
+        <div class="report" v-if="!isHidden1"><iframe class="report" title="netflix_report"
+            src="https://app.powerbi.com/view?r=eyJrIjoiMWYxMmRlYjctYjRmNi00MDZmLThmZWYtMTg2YWMwYjRiY2I5IiwidCI6ImY5MjMzYTQwLWZiMWEtNDY0ZC1iODVhLTk1OWUzYWI4ZTQ1NCJ9"
+            frameborder="0" allowFullScreen="true"></iframe></div>
 
+      </div>
+    </div>
 
 
   </div>
-
 </template>
 
 <script>
 export default {
-  name: 'project-section'
+  name: 'project-section',
+  data() {
+    return {
+      isHidden1: true,
+      isHidden2: true
+    };
+  }
 }
 </script>
 
 <style>
+.report-btn {
+  align-self: center;
+  /* border: 1px solid black; */
+  justify-self: center;
+  justify-content: center;
+}
+
+.report {
+  width: 1200px;
+  height: 747px;
+}
+
 .project-icons {
   font-size: 20px;
   cursor: pointer;
@@ -139,9 +179,11 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  justify-content: center;
 }
-.project-sub{
+
+.project-sub {
 
   /* flex-basis: 325px; */
   align-self: center;
@@ -262,10 +304,11 @@ export default {
   /* font-size: x-small; */
 }
 
-.project-box:hover .project-card-footer p:nth-child(2){
+.project-box:hover .project-card-footer p:nth-child(2) {
   visibility: visible;
   /* font-size: small; */
 }
+
 .project-box:hover .project-icons {
   visibility: visible;
   /* font-size: medium; */
@@ -291,8 +334,29 @@ export default {
   color: #fcfdfd;
 }
 
+@media (max-width:1224px) {
 
-@media (max-width:500px) {
+.report {
+width: 900px;
+height: 500px;
+}
+}
+
+@media (max-width:900px) {
+
+.report {
+width: 600px;
+height: 500px;
+}
+}
+
+@media (max-width:700px) {
+
+  .report {
+  width: 350px;
+  height: 500px;
+  }
+
   .project-box {
     flex-basis: 75vw;
     margin: 10% 0;
@@ -315,16 +379,6 @@ export default {
     width: 100%;
     height: 25vh;
     transform: translateY(-1vh);
-  }
-
-  /*
-.project-box:hover .project-card-footer {
-transform: translateY(-5vh);
-cursor: default;
-} */
-
-  .project-card-footer p:nth-child(2) {
-    /* font-size: 11px; */
   }
 }
 
@@ -361,5 +415,4 @@ cursor: default;
   .project-card-footer p:nth-child(2) {
     font-size: 11px;
   }
-} */
-</style>
+} */</style>
