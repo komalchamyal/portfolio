@@ -112,9 +112,9 @@
       </div>
       <br><br><br>
       <div class="report-space">
-        <div class="report" v-if="!isHidden1"><iframe class="report" title="netflix_report"
-            src="https://app.powerbi.com/view?r=eyJrIjoiMWYxMmRlYjctYjRmNi00MDZmLThmZWYtMTg2YWMwYjRiY2I5IiwidCI6ImY5MjMzYTQwLWZiMWEtNDY0ZC1iODVhLTk1OWUzYWI4ZTQ1NCJ9"
-            frameborder="0" allowFullScreen="true"></iframe></div>
+        <div class="report" v-if="!isHidden1">
+          <iframe class="netflix-report" title="netflix_report" src="https://app.powerbi.com/view?r=eyJrIjoiMWYxMmRlYjctYjRmNi00MDZmLThmZWYtMTg2YWMwYjRiY2I5IiwidCI6ImY5MjMzYTQwLWZiMWEtNDY0ZC1iODVhLTk1OWUzYWI4ZTQ1NCJ9" 
+          frameborder="0" allowFullScreen="true" ></iframe></div>
 
       </div>
     </div>
@@ -143,7 +143,9 @@ export default {
   justify-content: center;
 }
 
-.report {
+
+
+.netflix-report {
   width: 1200px;
   height: 747px;
 }
@@ -336,7 +338,7 @@ export default {
 
 @media (max-width:1224px) {
 
-.report {
+.netflix-report {
 width: 900px;
 height: 500px;
 }
@@ -344,7 +346,7 @@ height: 500px;
 
 @media (max-width:900px) {
 
-.report {
+.netflix-report {
 width: 600px;
 height: 500px;
 }
@@ -352,7 +354,7 @@ height: 500px;
 
 @media (max-width:700px) {
 
-  .report {
+  .netflix-report {
   width: 350px;
   height: 500px;
   }

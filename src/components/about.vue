@@ -8,8 +8,7 @@
       <div class="intro ">
         I'm a passionate developer who's also a computer science student.
         Technology intrigues me. I really enjoy using whatever skills I have to solve day-to-day problems with code. <br>I have completed my
-        Bachelor's from Hansraj College, Delhi University with Computer Science major.
-        I have also completed Diploma in Programming from the IIT Madras BS Degree program. <br> Currently working as a Data Analyst at 
+        Bachelor's from Hansraj College, Delhi University with Computer Science major. <br> Currently working as a Data Scientist at 
         <a href="https://www.aaysanalytics.com/home.html" target="_blank" class="danx">Aays Analytics</a> Gurugram.<br>
         Apart from the tech, I also love to dance. 
         I have a <a href="https://www.instagram.com/komaldanx" target="_blank" class="danx">dance page</a> where I showcase my dancing occasionally :)
