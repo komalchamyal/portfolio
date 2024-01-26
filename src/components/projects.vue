@@ -57,6 +57,46 @@
     <div class='projects-container'>
       <div class='project-box'>
         <div class='skill-container'>
+          <div class='skill'>Flask</div>
+          <div class='skill'>Vue.js</div>
+          <div class='skill'>Redis</div>
+          <div class='skill'>Celery</div>
+        </div>
+        <img src="urbanshopper.jpg" />
+        <div class='project-card-footer'>
+          <p>URBAN SHOPPER</p>
+          <p>Grocery app with RBAC and backend jobs.
+          </p>
+          <div class=""><a href="https://github.com/komalchamyal/grocery-app" target="_blank"
+              class="project-icons bi bi-code-slash"></a> <a
+              href="https://github.com/komalchamyal/grocery-app" target="_blank"
+              class="project-icons bi bi-box-arrow-up-right"></a>
+          </div>
+        </div>
+      </div>
+      <div class='project-box'>
+        <div class='skill-container'>
+          <div class='skill'>ReactFlow</div>
+          <div class='skill'>React</div>
+          <div class='skill'>Vite</div>
+          <div class='skill'>HTML CSS JS</div>
+        </div>
+        <img src="mindmap.png" />
+        <div class='project-card-footer'>
+          <p>MIND MAP</p>
+          <p>Import headers from CSV file, Create mind map using nodes and edges and Export it in json
+format.
+          </p>
+          <div class=""><a href="https://github.com/komalchamyal/mind-map" target="_blank"
+              class="project-icons bi bi-code-slash"></a> <a
+              href="https://my-mind-map.netlify.app/" target="_blank"
+              class="project-icons bi bi-box-arrow-up-right"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class='project-box'>
+        <div class='skill-container'>
           <div class='skill'>Python-Flask</div>
           <div class='skill'>Sql-Alchemy</div>
           <div class='skill'>Jinja2</div>
