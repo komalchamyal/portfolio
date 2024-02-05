@@ -1,23 +1,7 @@
 <template>
-
-
   <div id="contact" class="text-center">
     <h1 class="heading display-3 pt-5">Get In Touch</h1>
     <br>
-    <!--       
-      <h2 class="display-5 subheading mt-3 mb-2">For work/enquiry</h2>
-      <div class='form mt-3' style="width: 100%;">
-      <label class="fw-light col-2">Name</label>
-      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
-      <label class="fw-light col-2">Email</label>
-      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
-      <label class="fw-light col-2">Phone</label>
-      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
-      <label class="fw-light col-2 ">Subject</label>
-      <input type="text" class="input-name my-2" :value=name placeholder=""/> <br>
-      </div>
-
-      <br> -->
     <h2 class="fs-2 subheading">Leave me a Message!</h2>
     <div class="text-center">
       <p class="fs-6 lead px-5 mb-5">(Could be anything from `Hii Komal` to `I would like to work with you`)</p>
@@ -36,19 +20,18 @@
       </p>
     </div>
     <div id="contact-form">
-      <input type="text" autocomplete="off" name="name" class="input-name2 mx-3" placeholder="Your Name" data-bs-toggle="tooltip"
-         title="Your name" required />
-              <button id="msg-btn" type="submit" class="button-msg mx-3"> 
-          <i id="change-icon" class="bi bi-send-fill"></i>
+      <input type="text" autocomplete="off" name="name" class="input-name2 mx-3" placeholder="Your Name"
+        data-bs-toggle="tooltip" title="Your name" required />
+      <button id="msg-btn" type="submit" class="button-msg mx-3">
+        <i id="change-icon" class="bi bi-send-fill"></i>
       </button>
-      <textarea name="message" autocomplete="off" required data-bs-toggle="tooltip" data-bs-placement="bottom" title="Any comments"
-        class="comments form-control mt-3" :value=msg placeholder="Type Something Here"></textarea>
-       
-
-      </div>
+      <textarea name="message" autocomplete="off" required data-bs-toggle="tooltip" data-bs-placement="bottom"
+        title="Any comments" class="comments form-control mt-3" :value=msg placeholder="Type Something Here"></textarea>
+    </div>
 
     <div class="text-center mt-4">
-      <div id="#" class="thanks fs-1 animate__animated animate__backInLeft"  style="font-family: 'Montserrat', sans-serif; font-weight: 100;"> Thank You!</div>
+      <div id="#" class="thanks fs-1 animate__animated animate__backInLeft"
+        style="font-family: 'Montserrat', sans-serif; font-weight: 100;"> Thank You!</div>
     </div>
     <div class="text-center">
       <h2 class="fs-4 subheading mt-4">For Work/Enquiry</h2><br>
@@ -59,7 +42,6 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -75,25 +57,24 @@ export default {
 </script>
 
 <style>
-.bi-check-lg{
+.bi-check-lg {
   font-size: 3ch;
   margin: 0;
   padding: 0;
   color: green;
 }
-.bi-x{
+
+.bi-x {
   font-size: 3ch;
   margin: 0;
   padding: 0;
   color: rgb(150, 0, 0);
 }
+
 .lds-hourglass {
   display: inline-block;
-  /* bottom: 25px; */
-  /* z-index: 1000; */
-  /* min-height: 4ch;
-  max-width: 80px; */
 }
+
 .lds-hourglass:after {
   content: " ";
   display: block;
@@ -106,15 +87,18 @@ export default {
   border-color: rgb(0, 0, 0) transparent black transparent;
   animation: lds-hourglass 1.2s infinite;
 }
+
 @keyframes lds-hourglass {
   0% {
     transform: rotate(0);
     animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
+
   50% {
     transform: rotate(900deg);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   100% {
     transform: rotate(1800deg);
   }
@@ -202,18 +186,6 @@ export default {
   align-self: center;
 }
 
-/* .input-name {
-  height: 5.5vh;
-  width: 40%;
-  font-size: medium;
-} */
-
-
-/* label {
-  font-size: larger;
-} */
-
-
 svg {
   font-weight: lighter;
 }
@@ -225,7 +197,6 @@ svg {
   padding-left: 2ch;
   border-radius: 5px;
   max-width: 250px;
-  /* font-size: medium; */
   outline: none;
   border: none;
   box-shadow: rgb(80, 68, 68) 4px 4px 4px;
@@ -239,32 +210,16 @@ svg {
   max-width: 500px;
   padding: 1ch;
   height: 15vh;
-  /* font-size: large; */
   outline: none;
-  /* border: none; */
-  /* outline-offset: 0; */
-  /* font-weight: light; */
   resize: none;
   box-shadow: black 10px 8px 1px;
 
 }
 
 @media only screen and (max-width: 1100px) {
-  /* .input-name {
-    height: 5.5vh;
-    width: 30%;
-    margin-left: 0;
-    font-size: small;
-  } */
 
-  /* label {
-    margin-right: 0;
-    padding-right: 0;
-  } */
-
-  .errors{
+  .errors {
     margin-bottom: 40px;
-    /* font-size: small; */
   }
 
   .input-name2 {
@@ -280,19 +235,8 @@ svg {
 }
 
 @media only screen and (max-width: 576px) {
-  /* .input-name {
-    height: 5.5vh;
-    width: 70%;
-    font-size: small;
-  } */
-
-  /* label {
-    margin-right: 50vw;
-    font-size: medium;
-  } */
 
   .input-name2 {
-    /* height: 5vh; */
     width: 50%;
     font-size: medium;
   }
@@ -303,13 +247,4 @@ svg {
     font-size: medium;
   }
 
-  /* .button-msg {
-    margin-top: 1ch;
-    font-size: 100%;
-    font-weight: 600;
-    min-height: 35px;
-    width: 15%;
-  } */
-
-}
-</style>
+}</style>

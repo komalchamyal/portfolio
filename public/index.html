@@ -99,7 +99,6 @@
 
       // errors close button click
       $('.close-1').click(function (e) {
-        // console.log("clicked")
         $('.error1').removeClass('animate__fadeInUpBig');
         $('.error1').addClass('animate__fadeOutLeftBig');
         $('.error1').fadeOut(1000);
@@ -143,7 +142,6 @@
           $(this).addClass('no-hover')
           $('#change-icon').removeClass("bi bi-send-fill");
           $('#change-icon').addClass("lds-hourglass");
-          // console.log("clicked")
           $(this).prop("disabled", true);
           $(this).css('cursor', 'default');
           $.ajax({
@@ -156,8 +154,6 @@
               message: $('.comments').val()
             },
             success: (data) => {
-              // console.log(data);
-              // alert("SUCCESS!", data);
               $('#change-icon').removeClass("lds-hourglass", 100);
               $('#change-icon').addClass("bi bi-check-lg", 100);
               $('.input-name2').val("");
@@ -167,7 +163,6 @@
             },
             error: (err) => {
               console.log(err); 
-              // alert("Error", err) 
               $('#change-icon').removeClass("lds-hourglass", 100);
               $('#change-icon').addClass("bi bi-x", 100);
               $(this).add('<a href="" title="tooltip_text"> Content </a>')
@@ -183,7 +178,6 @@
     // coming back to top on every reload 
     window.onload = function () {
       window.scrollTo(0, 0)
-      // findPosition(document.getElementById('projects')))
     }
 
     function scrolldiv(div) {
@@ -199,8 +193,6 @@
         return [currenttop];
       }
     }
-
-
   </script>
 </body>
 

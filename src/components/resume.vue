@@ -131,7 +131,6 @@
     </div>
     <br>
     <div class="text-center">
-      <!-- <object data="cv.pdf" class="image-fluid" width="700" height="400"></object> -->
       <a href="cv.pdf" class="viewcv" data-bs-toggle="tooltip" data-bs-placement="top" title="View Resume"
         target="_blank">
         <h2 class="fs-3 subheading ">Resume</h2>
@@ -166,8 +165,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* border: 3px solid black;
-  max-height: min-content; */
 }
 
 .warpper {
@@ -205,7 +202,6 @@ li {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
-	/* background: rgb(218, 233, 251); */
 	padding: 1.5rem;
   outline: 1px solid black;
 	border-radius: 1rem;
@@ -233,7 +229,6 @@ li::before {
 
 li:nth-child(even) {
 	flex-direction: row-reverse;
-	/* background: rgb(249, 223, 246); */
 	margin-right: -2rem;
 	margin-left: 2rem;
 }
@@ -378,6 +373,5 @@ text-decoration: none;
 #contact,
 #projects {
   min-height: 100vh;
-  /* background-image: url('../../public/bg3.webp'); */
 }
 </style>

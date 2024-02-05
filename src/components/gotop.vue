@@ -13,12 +13,9 @@ export default{
 
 <style>
 
-/* go to top icon */
 .goto-container {
   width: 50px;
   margin-left: 90%;
-  /* border: none; */
-  /* background-color: black; */
 }
 .gotop {
   display: inline-block;
@@ -45,13 +42,7 @@ export default{
     transition: all 200ms cubic-bezier(.23, 1, 0.32, 1);
     background-color: #ffffff;
   }
-/* @media (hover:hover) {
-}
-@media (hover:none) {
-  .gotop:active {
-    cursor: pointer;
-  }
-} */
+
 @media only screen and (max-width: 576px) {
 .goto-container {
   margin-left: 85%;

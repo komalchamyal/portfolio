@@ -178,7 +178,6 @@ export default {
 <style>
 .report-btn {
   align-self: center;
-  /* border: 1px solid black; */
   justify-self: center;
   justify-content: center;
 }
@@ -199,8 +198,6 @@ export default {
   border: none;
   margin: 5px;
   visibility: hidden;
-  /* transition: 100ms ease-in-out; */
-  /* box-shadow: 0px 0px 12px white ; */
 }
 
 .project-icons:hover {
@@ -221,13 +218,10 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* border: 1px solid black; */
   justify-content: center;
 }
 
 .project-sub {
-
-  /* flex-basis: 325px; */
   align-self: center;
 }
 
@@ -251,9 +245,7 @@ export default {
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0 37px; */
   justify-content: space-around;
-  /* align-items: center ; */
   overflow: hidden;
 }
 
@@ -271,7 +263,6 @@ export default {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   border-radius: 5px;
-  /* overflow: visible; */
   color: #92CDCF;
   opacity: 0;
   transform: translateX(-400px);
@@ -306,13 +297,10 @@ export default {
 
 .project-card-footer {
   font-family: 'Roboto Mono Thin', monospace;
-  /* font-size: 15px; */
   letter-spacing: 2px;
   width: 100%;
   height: 180px;
-  /* transform: translateY(-5px); */
   padding: 0 2px;
-
   background-color: #000000;
   align-self: center;
   color: #bdc3c7;
@@ -343,17 +331,14 @@ export default {
 
 .project-box:hover .project-card-footer p {
   padding-top: 10px;
-  /* font-size: x-small; */
 }
 
 .project-box:hover .project-card-footer p:nth-child(2) {
   visibility: visible;
-  /* font-size: small; */
 }
 
 .project-box:hover .project-icons {
   visibility: visible;
-  /* font-size: medium; */
 }
 
 .project-box:hover .project-card-footer {
@@ -407,7 +392,6 @@ height: 500px;
   .skill-container {
     width: 75vw;
     height: 150px;
-    /* padding: 10px; */
   }
 
   .skill {
@@ -424,37 +408,4 @@ height: 500px;
   }
 }
 
-
-
-/* @media (max-width:360px) {
-
-  .skill-container {
-    width: 80vw;
-    height: 160px;
-    padding: 10px;
-  }
-
-  .project-box {
-    flex-basis: 100%;
-    width: 100vw;
-    margin: 10% 0;
-  }
-
-  .project-card-footer {
-    font-size: 1vh;
-    letter-spacing: 1px;
-    width: 100%;
-    height: 27vh;
-    transform: translateY(-10vh);
-  }
-
-
-  .project-box:hover .project-card-footer {
-    transform: translateY(-13vh);
-    cursor: default;
-  }
-
-  .project-card-footer p:nth-child(2) {
-    font-size: 11px;
-  }
-} */</style>
+</style>

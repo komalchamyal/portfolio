@@ -56,7 +56,6 @@ export default {
   font-family: 'Poppins', sans-serif;
   padding: 5%;
   width: 70%;
-  /* max-height: 100px; */
   text-align: left;
   font-size: large;
 }
