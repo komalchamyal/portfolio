@@ -6,9 +6,10 @@
     <div class="info">
       <img src="new1.jpg" class="image-fluid imgs" />
       <div class="intro ">
-        I'm a passionate developer who's also a computer science student.
+        I'm a Passionate and Results-Driven Professional in Business and Technology.
+        I specialize in problem solving. That has made me a fundamental expert in machine learning, data analysis, modelling and client services/relations. I’m known for applying technical expertise as well as business knowledge to drive impactful projects. 
         Technology intrigues me and I really enjoy using whatever skills I have to solve day-to-day problems with code. <br>I have completed my
-        Bachelor's from Hansraj College, Delhi University with Computer Science major. I also hold a Diploma in Programming from IIT Madras. <br> Currently working as an Associate Data Scientist at 
+        Bachelor's from Hansraj College, Delhi University with Computer Science major. I have done a Diploma in Programming from IIT Madras. <br> Currently working as an Associate Data Scientist at 
         <a href="https://www.aaysanalytics.com/home.html" target="_blank" class="danx">Aays Analytics</a>, Gurugram.<br>
         Apart from the tech, I also love to dance :)
       </div>
