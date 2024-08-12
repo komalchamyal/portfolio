@@ -11,7 +11,7 @@
         Technology intrigues me and I really enjoy using whatever skills I have to solve day-to-day problems with code. <br>I have completed my
         Bachelor's from Hansraj College, Delhi University with Computer Science major. I have done a Diploma in Programming from IIT Madras. <br> Currently working as an Associate Data Scientist at 
         <a href="https://www.aaysanalytics.com/home.html" target="_blank" class="danx">Aays Analytics</a>, Gurugram.<br>
-        Outside of work, I enjoy dancing, swimming, traveling, and spending time with my loved ones :)
+        Outside of work, I enjoy <a href="https://www.instagram.com/komaldanx/" target="_blank" class="danx">dancing</a>, swimming, traveling, and spending time with my loved ones :)
       </div>
       <img src="pic4.jpg" class="imgs" />
 
