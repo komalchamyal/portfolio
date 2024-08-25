@@ -6,10 +6,12 @@
     <div class="info">
       <img src="new1.jpg" class="image-fluid imgs" />
       <div class="intro ">
-        I'm a Passionate and Results-Driven Professional in Business and Technology.
-        I specialize in problem solving. That has made me a fundamental expert in machine learning, data analysis, modelling and client services/relations. I’m known for applying technical expertise as well as business knowledge to drive impactful projects. 
-        Technology intrigues me and I really enjoy using whatever skills I have to solve day-to-day problems with code. <br>I hold a Bachelor's in Computer Science from Hansraj College, Delhi University, and a Diploma in Programming from IIT Madras, with 1+ yr of experience as a Data Scientist and Data Analyst. <br> Currently Building my own AI powered Plants business.
-        Outside of work, I enjoy <a href="https://www.instagram.com/komaldanx/" target="_blank" class="danx">dancing</a>, swimming, traveling, and spending time with my loved ones :)
+        I'm grateful for the opportunity to combine my passion for technology and business to make a positive impact. 
+With a strong educational foundation in Computer Science from Hansraj College, Delhi University, and a Diploma in Programming from IIT Madras, I've been fortunate enough to gain valuable experience in data science and work on projects that drive real results. 
+<br>I'm now excited to apply my skills to build an AI-powered plants business that brings value to others. 
+<br>I believe in the power of collaboration, continuous learning, and kindness.
+<br>
+        Outside of work, you can find me <a href="https://www.instagram.com/komaldanx/" target="_blank" class="danx">dancing</a>, swimming, traveling, and spending time with my loved ones :)
       </div>
       <img src="pic4.jpg" class="imgs" />
 
