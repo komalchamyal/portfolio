@@ -9,8 +9,7 @@
         I'm a Passionate and Results-Driven Professional in Business and Technology.
         I specialize in problem solving. That has made me a fundamental expert in machine learning, data analysis, modelling and client services/relations. I’m known for applying technical expertise as well as business knowledge to drive impactful projects. 
         Technology intrigues me and I really enjoy using whatever skills I have to solve day-to-day problems with code. <br>I have completed my
-        Bachelor's from Hansraj College, Delhi University with Computer Science major. I have done a Diploma in Programming from IIT Madras. <br> Currently working as an Associate Data Scientist at 
-        <a href="https://www.aaysanalytics.com/home.html" target="_blank" class="danx">Aays Analytics</a>, Gurugram.<br>
+        Bachelor's from Hansraj College, Delhi University with Computer Science major. I have also done Diploma in Programming from IIT Madras. I have experience working at a startup for 1+ yr as a Data Scientist and Data Analyst. <br> Currently Building my own AI powered Plants business.
         Outside of work, I enjoy <a href="https://www.instagram.com/komaldanx/" target="_blank" class="danx">dancing</a>, swimming, traveling, and spending time with my loved ones :)
       </div>
       <img src="pic4.jpg" class="imgs" />
