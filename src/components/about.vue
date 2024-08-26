@@ -70,8 +70,8 @@ export default {
   .intro {
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+/*     padding-top: 5%;
+    padding-bottom: 5%; */
     width: 100%;
     font-size: medium;
   }
