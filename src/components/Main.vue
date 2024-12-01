@@ -24,7 +24,7 @@
     <!-- bottom fixed navbar  -->
     <nav class="navbar fixed-bottom navbar-expand" style="background-color: transparent;">
       <div class="container text-center" style="justify-content: center;">
-        <button class="navbar-brand" data-bs-toggle="tooltip" data-bs-placement="top" title="My LinkedIn" onclick="window.open('https://www.linkedin.com/in/komal-chamyal-18248b1b3/','_blank')">
+        <button class="navbar-brand" data-bs-toggle="tooltip" data-bs-placement="top" title="My LinkedIn" onclick="window.open('https://www.linkedin.com/in/komalchamyal/','_blank')">
           <img src="linkedin.png" alt="" width="25" height="25" class="d-inline-block rounded align-text-top">
         </button>
         <button class="navbar-brand" onclick="window.open('https://github.com/komalchamyal','_blank')" data-bs-toggle="tooltip" data-bs-placement="top" title="My GitHub" target="_blank">
