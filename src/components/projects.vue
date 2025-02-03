@@ -141,7 +141,6 @@ format.
     <div class="project-sub">
       <h1 class="display-6">Power BI</h1>
     </div>
-    <!--
     <div class="projects-container">
       <div class="report-btn">
         <button class="btn btn-dark mx-3" style="width: max-content;" v-if="isHidden1 && isHidden2"
@@ -159,7 +158,6 @@ format.
 
       </div>
     </div> 
-  -->
 
 
   </div>
