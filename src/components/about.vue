@@ -7,9 +7,8 @@
       <img src="new1.jpg" class="image-fluid imgs" />
       <div class="intro ">
         I'm grateful for the opportunity to combine my passion for technology and business to make a positive impact. 
-With a strong educational foundation in Computer Science from Hansraj College, Delhi University, and a Diploma in Programming from IIT Madras, I've been fortunate enough to gain valuable experience in data science and work on projects that drive real results. 
-<br>I'm now excited to apply my skills to build an AI-powered plants business that brings value to others. 
-<br>I believe in the power of collaboration, continuous learning, and kindness.
+With a strong educational foundation in Computer Science from Hansraj College, Delhi University, and a Diploma in Programming from IIT Madras, I excel in blending technical expertise with business insights to drive impactful projects.
+<br>I believe in the power of collaboration, continuous learning, and kindness. Currently working as a Junior Data Scientist at <a href="https://www.proarch.com/" target="_blank" class="danx">ProArch</a>.
 <br>
         Outside of work, you can find me <a href="https://www.instagram.com/komaldanx/" target="_blank" class="danx">dancing</a>, swimming, traveling, and spending time with my loved ones :)
       </div>
