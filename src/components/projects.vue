@@ -138,15 +138,13 @@ format.
         </div>
       </div>
     </div>
-    <div class="project-sub">
+    <!-- <div class="project-sub">
       <h1 class="display-6">Power BI</h1>
     </div>
     <div class="projects-container">
       <div class="report-btn">
         <button class="btn btn-dark mx-3" style="width: max-content;" v-if="isHidden1 && isHidden2"
           v-on:click="isHidden1 = false; isHidden2 = true">View Netflix Report</button>   
-        <!-- <button class="btn btn-dark mx-3" style="width: max-content;" v-if="isHidden2&&isHidden1"
-          v-on:click="isHidden1 = true; isHidden2 = false">View SuperStore Report</button> -->
           <button class="btn btn-dark mx-3" style="width: max-content;" v-else
           v-on:click="isHidden1 = true; isHidden2 = true">Close</button>
       </div>
@@ -157,7 +155,7 @@ format.
           frameborder="0" allowFullScreen="true" ></iframe></div>
 
       </div>
-    </div> 
+    </div>  -->
 
 
   </div>
