@@ -121,6 +121,8 @@
      <br><br> <div class="warpper2">
         <div class="certifications">
           <ol role="list">
+	  <li><a class="link" target="_blank" href="https://learn.microsoft.com/en-us/users/komalchamyal/credentials/7d67236a1cca3432">
+            Microsoft Fabric Data Engineer</a></li>
           <li><a class="link" target="_blank" href="https://learn.microsoft.com/en-us/users/komalchamyal/credentials/4f1946f395a046b3">
             Microsoft Power BI Data Analyst</a></li>
           <li><a class="link" target="_blank" href="https://drive.google.com/file/d/1A842btwVFN8LrZ0nBRjwnRgSwslckiZv/view">
