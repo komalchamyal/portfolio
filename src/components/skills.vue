@@ -3,7 +3,7 @@
   <div id="resume" class="text-center pt-3 pb-5 mb-3">
     <h1 class="heading display-3">My Skills</h1>
 
-<br>
+    <br>
     <div class="warpper">
       <input class="radio" id="one" name="group" type="radio" checked>
       <input class="radio" id="two" name="group" type="radio">
@@ -11,8 +11,8 @@
 
       <div class="tabs">
         <label class="tab" id="one-tab" for="one">Programming</label>
-        <label class="tab" id="two-tab" for="two"> Web Dev</label>
-        <label class="tab" id="three-tab" for="three"> Data</label>
+        <label class="tab" id="two-tab" for="two">ML/AI Frameworks</label>
+        <label class="tab" id="three-tab" for="three">Data Tools</label>
 
       </div>
       <div class="panels">
@@ -20,31 +20,31 @@
           <div class="skills-box">
             <div class="container">
               <p class="skill-label">Python</p>
-              <div class="skillbar " style="width: 97%; background-color: mediumslateblue;"></div>
+              <div class="skillbar " style="width: 100%; background-color: mediumslateblue;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Java</p>
-              <div class="skillbar" style="width: 87%; background-color: orangered;"></div>
-            </div>
-            <div class="container">
-              <p class="skill-label">C++</p>
-              <div class="skillbar " style="width: 85%; background-color: 	#f5c10e;"></div>
-            </div>
-            <div id="resume-link" class="container">
               <p class="skill-label">SQL</p>
-              <div class="skillbar " style="width: 92%; background-color: indianred;"></div>
+              <div class="skillbar" style="width: 100%; background-color: orangered;"></div>
             </div>
             <div class="container">
               <p class="skill-label">R</p>
-              <div class="skillbar" style="width: 85%; background-color: green;"></div>
+              <div class="skillbar " style="width: 100%; background-color: 	#f5c10e;"></div>
+            </div>
+            <div id="resume-link" class="container">
+              <p class="skill-label">JavaScript</p>
+              <div class="skillbar " style="width: 100%; background-color: indianred;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Linux</p>
-              <div class="skillbar" style="width: 89%; background-color: brown;"></div>
+              <p class="skill-label">Java</p>
+              <div class="skillbar" style="width: 100%; background-color: green;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Data Structures & Algorithms</p>
-              <div class="skillbar" style="width: 94%; background-color: orange;"></div>
+              <p class="skill-label">Shell Scripting (Bash)</p>
+              <div class="skillbar" style="width: 100%; background-color: brown;"></div>
+            </div>
+            <div class="container">
+              <p class="skill-label">Flask + Vue.js</p>
+              <div class="skillbar" style="width: 100%; background-color: orange;"></div>
             </div>
 
           </div>
@@ -53,31 +53,32 @@
 
           <div class="skills-box">
             <div class="container">
-              <p class="skill-label">Vue.js</p>
-              <div class="skillbar" style="width: 94%; background-color: orangered;"></div>
+              <p class="skill-label">scikit-learn</p>
+              <div class="skillbar" style="width: 100%; background-color: orangered;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Flask, Jinja2</p>
-              <div class="skillbar" style="width: 94%; background-color: palevioletred;"></div>
-            </div>            <div class="container">
-              <p class="skill-label">REST API</p>
-              <div class="skillbar" style="width: 95%; background-color: 	purple;"></div>
+              <p class="skill-label">PyTorch</p>
+              <div class="skillbar" style="width: 100%; background-color: palevioletred;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">SQL-Alchemy</p>
-              <div class="skillbar" style="width: 95%; background-color: 	darkblue;"></div>
+              <p class="skill-label">Hugging Face Transformers</p>
+              <div class="skillbar" style="width: 100%; background-color: purple;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">HTML CSS</p>
-              <div class="skillbar " style="width: 95%; background-color: olive;"></div>
+              <p class="skill-label">LangChain </p>
+              <div class="skillbar" style="width: 100%; background-color: darkblue;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">JavaScript</p>
-              <div class="skillbar " style="width: 90%; background-color: green;"></div>
+              <p class="skill-label">Azure Machine Learning</p>
+              <div class="skillbar " style="width: 100%; background-color: olive;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Bootstrap</p>
-              <div class="skillbar" style="width: 93%; background-color: purple;"></div>
+              <p class="skill-label">TensorFlow</p>
+              <div class="skillbar " style="width: 100%; background-color: green;"></div>
+            </div>
+            <div class="container">
+              <p class="skill-label">MLflow</p>
+              <div class="skillbar" style="width: 100%; background-color: purple;"></div>
             </div>
 
 
@@ -87,47 +88,58 @@
 
           <div class="skills-box">
             <div class="container">
-              <p class="skill-label">ML/AI</p>
-              <div class="skillbar " style="width: 97%; background-color: Purple;"></div>
-            </div>            
+              <p class="skill-label">Microsoft Fabric</p>
+              <div class="skillbar " style="width: 100%; background-color: Purple;"></div>
+            </div>
             <div class="container">
               <p class="skill-label">Power BI</p>
-              <div class="skillbar " style="width: 91%; background-color: #55c10e;"></div>
+              <div class="skillbar " style="width: 100%; background-color: #55c10e;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Azure</p>
-              <div class="skillbar " style="width: 91%; background-color: pink;"></div>
+              <p class="skill-label">Apache Spark</p>
+              <div class="skillbar " style="width: 100%; background-color: pink;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Python</p>
-              <div class="skillbar " style="width: 97%; background-color: mediumslateblue;"></div>
+              <p class="skill-label">Databricks</p>
+              <div class="skillbar " style="width: 100%; background-color: mediumslateblue;"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Matplotlib, Seaborn</p>
-              <div class="skillbar " style="width: 97%; background-color: rgb(232, 86, 86);"></div>
+              <p class="skill-label">RDBMS</p>
+              <div class="skillbar " style="width: 100%; background-color: rgb(232, 86, 86);"></div>
             </div>
             <div class="container">
-              <p class="skill-label">Numpy, Pandas</p>
-              <div class="skillbar" style="width: 97%; background-color: #f5c10e;"></div>
+              <p class="skill-label">Postman/Insomnia</p>
+              <div class="skillbar" style="width: 100%; background-color: #f5c10e;"></div>
+            </div>
+            <div class="container">
+              <p class="skill-label">CI/CD (GitHub Actions, Azure DevOps)</p>
+              <div class="skillbar" style="width: 100%; background-color: brown;"></div>
             </div>
           </div>
         </div>
       </div>
-      
+
     </div>
-<br>
+    <br>
     <div>
       <h2 class="fs-1 subheading ">Certifications</h2>
-     <br><br> <div class="warpper2">
+      <br><br>
+      <div class="warpper2">
         <div class="certifications">
           <ol role="list">
-	  <li><a class="link" target="_blank" href="https://learn.microsoft.com/en-us/users/komalchamyal/credentials/7d67236a1cca3432">
-            Microsoft Fabric Data Engineer</a></li>
-          <li><a class="link" target="_blank" href="https://learn.microsoft.com/en-us/users/komalchamyal/credentials/4f1946f395a046b3">
-            Microsoft Power BI Data Analyst</a></li>
-          <li><a class="link" target="_blank" href="https://drive.google.com/file/d/1A842btwVFN8LrZ0nBRjwnRgSwslckiZv/view">
-            IITM Foundational Level</a> </li>
-        </ol>
+            <li><a class="link" target="_blank"
+                href="https://learn.microsoft.com/en-us/users/komalchamyal/credentials/7d67236a1cca3432">
+                Microsoft Certified: Fabric Data Engineer</a></li>
+            <li><a class="link" target="_blank"
+                href="https://learn.microsoft.com/en-us/users/komalchamyal/credentials/4f1946f395a046b3">
+                Microsoft Certified: Power BI Data Analyst</a></li>
+            <li><a class="link" target="_blank"
+                href="https://drive.google.com/file/d/1ammzEDdhZFHzPxsVOSOwaezO5dqivkrV/view?usp=sharing">
+                IITM Diploma in Programming</a> </li>
+            <li><a class="link" target="_blank"
+                href="https://drive.google.com/file/d/19C4PkxQNG_doMn1a_DO_fFgYm_rprps3/view?usp=sharing">
+                IIT Madras Lead Python Mentor</a> </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -177,6 +189,7 @@ export default {
   align-items: center;
   min-height: 450px;
 }
+
 .warpper2 {
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -186,58 +199,61 @@ export default {
   min-height: 200px;
   text-align: left;
 }
-.certifications{
+
+.certifications {
   max-width: 600px;
-  font-size: large;
+  font-size: medium;
 }
 
 ol {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
-li + li {
-	margin-top: 1rem;
+li+li {
+  margin-top: 1rem;
 }
 
 li {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
-	padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
   outline: 1px solid black;
-	border-radius: 1rem;
-	width: calc(100% - 2rem);
-	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
+  border-radius: 1rem;
+  width: calc(100% - 2rem);
+  box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
 }
 
 li::before {
-	counter-increment: list-item;
-	content: counter(list-item);
+  counter-increment: list-item;
+  content: counter(list-item);
   opacity: 0.85;
-	font-size: 3rem;
-	font-weight: 700;
-	width: 1.5em;
-	height: 1.5em;
-	background: #000000;
-	flex: 0 0 auto;
-	border-radius: 50%;
-	color: rgb(255, 255, 255);
-	display: flex;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 1.5em;
+  height: 1.5em;
+  background: #000000;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  display: flex;
   outline: 1px solid #000;
-	justify-content: center;
-	align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 li:nth-child(even) {
-	flex-direction: row-reverse;
-	margin-right: -2rem;
-	margin-left: 2rem;
+  flex-direction: row-reverse;
+  margin-right: -2rem;
+  margin-left: 2rem;
 }
-.link{
-color: #3E2723;
-text-decoration: none;
+
+.link {
+  color: #3E2723;
+  text-decoration: none;
 }
+
 .tab {
   cursor: pointer;
   padding: 1ch 1ch;
@@ -250,7 +266,8 @@ text-decoration: none;
   transition: all 0.1s ease-in-out;
 }
 
-.tab:hover , .tab:checked{
+.tab:hover,
+.tab:checked {
   background: #ffffff;
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(0, 0, 0);
@@ -350,9 +367,10 @@ text-decoration: none;
   .skill-label {
     font-size: small;
   }
-  .certifications{
-  font-size: medium;
-}
+
+  .certifications {
+    font-size: medium;
+  }
 
 }
 

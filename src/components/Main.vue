@@ -15,7 +15,7 @@
     <div class="buttons animate__animated animate__fadeInDown">
       <button onclick="scrolldiv('about')" class="button-28 fs-6" role="button">About</button>
       <button onclick="scrolldiv('projects')" class="button-28 fs-6" role="button">Projects</button>
-      <button onclick="scrolldiv('resume')" class="button-28 fs-6" role="button">Skills</button>
+      <button onclick="scrolldiv('resume')" class="button-28 fs-6" role="button">Skills/Certifications</button>
       <button type="submit" onclick="window.open('cv.pdf')" class="button-28 fs-6" data-bs-toggle="tooltip" data-bs-placement="top" title="View Resume"  role="button">CV
       <i class="bi bi-link-45deg"></i></button>
       <button onclick="scrolldiv('contact')" class="button-28 fs-6" role="button">Contact</button>

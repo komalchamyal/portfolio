@@ -4,13 +4,14 @@
   <div id="about" ref="about" class="text-center pt-1">
     <h1 class="heading display-3 mt-5" style="color:black">About Me</h1>
     <div class="info">
-      <img src="new1.jpg" class="image-fluid imgs" />
-      <div class="intro ">
-        I'm grateful for the opportunity to combine my passion for technology and business to make a positive impact. 
-With a strong educational foundation in Computer Science from Hansraj College, Delhi University, and a Diploma in Programming from IIT Madras, I excel in blending technical expertise with business insights to drive impactful projects.
-<br>I believe in the power of collaboration, continuous learning, and kindness. Currently working as a Junior Data Scientist at <a href="https://www.proarch.com/" target="_blank" class="danx">ProArch</a>.
-<br>
-        Outside of work, you can find me <a href="https://www.instagram.com/komaldanx/" target="_blank" class="danx">dancing</a>, swimming, traveling, and spending time with my loved ones :)
+      <img src="dp.jpg" class="image-fluid imgs" />
+      <div class="intro text-center">
+        <h2 class="fs-6 ">Skills from the Hills: Data, Dance & Debugging</h2><br>
+A data nerd with roots in nature and a thing for machine learning. With a CS degree from Hansraj College and a Programming Diploma from IIT Madras, I blend algorithms with business sense to build real-world AI solutions.
+
+Currently an Associate Data Scientist at <a href="https://www.proarch.com/" target="_blank" class="danx">ProArch</a>, where I build and deploy ML models, explore LLMs, and try not to overfit — both in code and in life.
+
+Endlessly learning, always collaborating, and never too far from a dance floor, swimming pool, or a hot cup of chai.
       </div>
       <img src="pic4.jpg" class="imgs" />
 

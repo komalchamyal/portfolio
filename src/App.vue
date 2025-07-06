@@ -3,7 +3,7 @@
   <Main></Main>
   <About></About>
   <Projects></Projects>
-  <Resume></Resume>
+  <Skills></Skills>
   <Contact></Contact>
 </template>
 
@@ -12,13 +12,13 @@ import Main from './components/Main.vue';
 import gotop from './components/gotop.vue';
 import About from './components/about.vue';
 import Projects from './components/projects.vue';
-import Resume from './components/resume.vue';
+import Skills from './components/skills.vue';
 import Contact from './components/contact.vue';
 
 export default {
   name: 'App',
   components: {
-    Main, About, Projects, Resume, Contact,gotop,
+    Main, About, Projects, Skills, Contact,gotop,
     
 },
   data() {
@@ -29,8 +29,6 @@ export default {
 </script>
 
 <style>
-
-/* content */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
