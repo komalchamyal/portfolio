@@ -4,7 +4,7 @@
   <div id="about" ref="about" class="text-center pt-1">
     <h1 class="heading display-3 mt-5" style="color:black">About Me</h1>
     <div class="info">
-      <img src="dp.jpg" class="image-fluid imgs" />
+      <img src="pic.jpg" class="image-fluid imgs" />
       <div class="intro text-center">
         <h2 class="fs-6 ">Skills from the Hills: Data, Dance & Debugging</h2><br>
 A data nerd with roots in nature and a thing for machine learning. With a CS degree from Hansraj College and a Programming Diploma from IIT Madras, I blend algorithms with business sense to build real-world AI solutions.
