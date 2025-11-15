@@ -11,19 +11,21 @@
 
       <div class='project-box'>
         <div class='skill-container'>
-          <div class='skill'>Numpy</div>
+          <div class='skill'>ML Models</div>
+          <div class='skill'>Streamlit</div>
           <div class='skill'>Pandas</div>
-          <div class='skill'>Matplotlib</div>
-          <div class='skill'>Seaborn</div>
+          <div class='skill'>Plotly</div>
+          <!-- <div class='skill'>Pandas</div>
+          <div class='skill'>Seaborn</div> -->
         </div>
-        <img src="data.jpg" />
+        <img src="pcod-img.png" />
         <div class='project-card-footer'>
-          <p>DATA ANALYSIS</p>
-          <p>Performed Data Cleaning, EDA and Visualisation of a car sale dataset of Russia</p>
+          <p>PCOD Cycle Predictor</p>
+          <p>Streamlit-based ML powered application to analyze menstrual cycle data and predict upcoming cycles for PCOD patients</p>
 
-          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/DAV-Project"
+          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/cycle-pred"
               class="project-icons bi bi-code-slash"></a> <a target="_blank"
-              href="https://github.com/komalchamyal/DAV-Project/blob/main/DAV%20project%20CAR%20sales.ipynb"
+              href="https://pcod-cycle-prediction.streamlit.app/"
               class="project-icons bi bi-box-arrow-up-right"></a>
           </div>
         </div>
@@ -50,6 +52,28 @@
           </div>
         </div>
       </div>
+
+      <div class='project-box'>
+        <div class='skill-container'>
+          <div class='skill'>Numpy</div>
+          <div class='skill'>Pandas</div>
+          <div class='skill'>Matplotlib</div>
+          <div class='skill'>Seaborn</div>
+        </div>
+        <img src="data.jpg" />
+        <div class='project-card-footer'>
+          <p>DATA ANALYSIS</p>
+          <p>Performed Data Cleaning, EDA and Visualisation of a car sale dataset of Russia</p>
+
+          <div class="mt-2"><a target="_blank" href="https://github.com/komalchamyal/DAV-Project"
+              class="project-icons bi bi-code-slash"></a> <a target="_blank"
+              href="https://github.com/komalchamyal/DAV-Project/blob/main/DAV%20project%20CAR%20sales.ipynb"
+              class="project-icons bi bi-box-arrow-up-right"></a>
+          </div>
+        </div>
+      </div>
+
+
     </div>
     <div class="project-sub">
       <h1 class="display-6">Web Development</h1>

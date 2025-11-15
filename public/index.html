@@ -144,33 +144,36 @@
           $('#change-icon').addClass("lds-hourglass");
           $(this).prop("disabled", true);
           $(this).css('cursor', 'default');
-          $.ajax({
-            method: 'POST',
-            url: 'https://formsubmit.co/komalchamyal22@gmail.com',
-            dataType: 'json',
-            accepts: 'application/json',
-            data: {
-              name: $('.input-name2').val(),
-              message: $('.comments').val()
-            },
-            success: (data) => {
-              $('#change-icon').removeClass("lds-hourglass", 100);
-              $('#change-icon').addClass("bi bi-check-lg", 100);
-              $('.input-name2').val("");
-              $('.comments').val("");
+$.ajax({
+  method: 'POST',
+  url: 'https://api.web3forms.com/submit',
+  dataType: 'json',
+  data: {
+    access_key: "04cbe9a8-2c36-46ed-92d0-f00025c7bc89",
+    name: $('.input-name2').val(),
+    message: $('.comments').val()
+  },
+  success: (data) => {
+    $('#change-icon').removeClass("lds-hourglass", 100);
+    $('#change-icon').addClass("bi bi-check-lg", 100);
 
-              $('.thanks').show(300);
-            },
-            error: (err) => {
-              console.log(err); 
-              $('#change-icon').removeClass("lds-hourglass", 100);
-              $('#change-icon').addClass("bi bi-x", 100);
-              $(this).add('<a href="" title="tooltip_text"> Content </a>')
-              $('.thanks').text("Oh no, looks like this isn't working at the moment.");
-              $('.thanks').show();
-            }
-          });
+    $('.input-name2').val("");
+    $('.comments').val("");
+
+    $('.thanks').text("Thank You!");
+    $('.thanks').show(300);
+  },
+  error: (err) => {
+    console.log(err);
+    $('#change-icon').removeClass("lds-hourglass", 100);
+    $('#change-icon').addClass("bi bi-x", 100);
+
+    $('.thanks').text("Oh no, looks like this isn't working at the moment.");
+    $('.thanks').show();
+  }
+});
         }
+
 
       });
     });

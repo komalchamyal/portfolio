@@ -22,6 +22,7 @@
     <div id="contact-form">
       <input type="text" autocomplete="off" name="name" class="input-name2 mx-3" placeholder="Your Name"
         data-bs-toggle="tooltip" title="Your name" required />
+
       <button id="msg-btn" type="submit" class="button-msg mx-3">
         <i id="change-icon" class="bi bi-send-fill"></i>
       </button>
