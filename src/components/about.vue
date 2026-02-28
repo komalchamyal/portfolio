@@ -9,7 +9,7 @@
         <h2 class="fs-6 ">Skills from the Hills: Data, Dance & Debugging</h2><br>
 A data nerd with roots in nature and a thing for machine learning. With a CS degree from Hansraj College and a Programming Diploma from IIT Madras, I blend algorithms with business sense to build real-world AI solutions.
 
-Currently an Associate Data Scientist at <a href="https://www.proarch.com/" target="_blank" class="danx">ProArch</a>, where I build and deploy ML models, explore LLMs, and try not to overfit — both in code and in life.
+Currently working as a Data Scientist at <a href="https://www.proarch.com/" target="_blank" class="danx">ProArch</a>, where I build and deploy ML models, explore LLMs, and try not to overfit — both in code and in life.
 
 Endlessly learning, always collaborating, and never too far from a dance floor, swimming pool, or a hot cup of chai.
       </div>
